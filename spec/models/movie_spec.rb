@@ -104,7 +104,7 @@ describe 'Movie' do
       end
 
       it 'can get size of the database' do
-        movies_size = can_get_length_of_movie_table
+        movies_size = can_get_length_of_the_movie_table
         expect(movies_size).to eq(5)
       end
 
